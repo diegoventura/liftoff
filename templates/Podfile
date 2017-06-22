@@ -11,10 +11,6 @@ end
 
 abstract_target :unit_tests do
   target '<%= test_target_name %>'
-  pod 'Specta'
-  pod 'Expecta'
-  pod 'OCMock'
-  pod 'OHHTTPStubs'
 end
 
 <% if enable_settings && dependency_manager_enabled?("cocoapods") %>
