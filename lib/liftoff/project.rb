@@ -60,6 +60,7 @@ module Liftoff
         configuration.build_settings.delete('SKIP_INSTALL')
         configuration.build_settings.delete('INSTALL_PATH')
         configuration.build_settings['LD_RUNPATH_SEARCH_PATHS'] = ['$(inherited)', '@executable_path/Frameworks']
+        configuration.build_settings['SWIFT_VERSION'] = '3.0'
       end
       target
     end
