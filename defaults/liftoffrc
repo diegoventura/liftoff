@@ -5,9 +5,9 @@
 # author:
 # prefix:
 # company_identifier:
+# test_target_name:
 ############################################################################
 
-test_target_name: UnitTests
 configure_git: true
 warnings_as_errors: true
 enable_static_analyzer: true

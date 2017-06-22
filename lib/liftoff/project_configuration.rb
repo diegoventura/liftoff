@@ -50,6 +50,10 @@ module Liftoff
       @company_identifier || "com.#{normalized_company_name}"
     end
 
+    def test_target_name
+      @unit_test_target || "#{project_name}Tests"
+    end
+
     def use_tabs
       if @use_tabs
         '1'
